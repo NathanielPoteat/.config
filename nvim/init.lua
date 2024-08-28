@@ -6,8 +6,9 @@ vim.cmd.source(vimrc)
 require("config.lazy")
 
 -- Themes
-vim.cmd('colorscheme cyberdream') -- Cyberpunk
---vim.cmd('colorscheme habamax') -- Like a cool forest
+vim.cmd('colorscheme gruvbox-material') -- Gruvbox Material
+--vim.cmd('colorscheme cyberdream') -- Cyberpunk
+--vim.cmd('colorscheme habamax') -- Default
 
 -- Status bar
  require('lualine').setup {

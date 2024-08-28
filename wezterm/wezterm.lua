@@ -70,7 +70,8 @@ config.window_frame = {
 }
 
 -- Colors
-config.colors = require("cyberdream")
+config.color_scheme = wezterm.get_builtin_color_schemes('Gruvbox Material (Gogh)')
+--config.colors = require("cyberdream")
 
 -- Tabs
 config.enable_tab_bar = true
